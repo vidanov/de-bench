@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+*.egg
+.ruff_cache/
+results/*.json
+.env
+.DS_Store
+.local-backups/
+.pytest_cache/
+
+# Third-party dictionaries are local inputs, never release assets.
+**/german_synonyms.txt
+**/german_decompound.txt
+
+# User-supplied data and local evaluation outputs
+/tasks/
+/domains/
+/benchmarks/
+/examples/
+/results/
